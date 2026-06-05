@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Saya</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#0077ff,#00c6ff);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:30px 0;
+}
+
+.section{
+    background:white;
+    margin-bottom:25px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.section:hover{
+    transform:translateY(-5px);
+}
+
+.section h2{
+    color:#0077ff;
+    margin-bottom:15px;
+}
+
+.timeline-item{
+    margin-bottom:15px;
+    padding-left:15px;
+    border-left:4px solid #0077ff;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#f8f9fc;
+    padding:20px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    background:#0077ff;
+    color:white;
+}
+
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Nama Anda</h1>
+    <p>Web Developer | Designer | Freelancer</p>
+</header>
+
+<div class="container">
+
+    <!-- Profil -->
+    <section class="section">
+        <h2>Profil</h2>
+        <p>
+            Halo, saya seorang profesional yang memiliki minat dalam
+            pengembangan web, desain digital, dan teknologi informasi.
+        </p>
+    </section>
+
+    <!-- Alamat -->
+    <section class="section">
+        <h2>Alamat</h2>
+        <p>
+            Jl. Contoh No. 123, Kota Anda, Jawa Barat, Indonesia
+        </p>
+        <p>Email: nama@email.com</p>
+        <p>Telepon: 08xxxxxxxxxx</p>
+    </section>
+
+    <!-- Pendidikan -->
+    <section class="section">
+        <h2>Pendidikan</h2>
+
+        <div class="timeline-item">
+            <h3>S1 Teknik Informatika</h3>
+            <p>Universitas Contoh (2018 - 2022)</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>SMA Negeri Contoh</h3>
+            <p>Jurusan IPA (2015 - 2018)</p>
+        </div>
+    </section>
+
+    <!-- Pengalaman -->
+    <section class="section">
+        <h2>Pengalaman Kerja</h2>
+
+        <div class="timeline-item">
+            <h3>Frontend Developer</h3>
+            <p>PT Teknologi Indonesia (2022 - Sekarang)</p>
+            <p>Membangun website perusahaan dan aplikasi berbasis web.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Freelance Web Designer</h3>
+            <p>2020 - Sekarang</p>
+            <p>Membuat desain website untuk UMKM dan perusahaan.</p>
+        </div>
+    </section>
+
+    <!-- Hasil Kerja -->
+    <section class="section">
+        <h2>Hasil Kerja</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Website Company Profile</h3>
+                <p>
+                    Membuat website perusahaan dengan tampilan modern dan responsif.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Sistem Absensi Online</h3>
+                <p>
+                    Sistem berbasis web untuk pencatatan kehadiran karyawan.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Toko Online</h3>
+                <p>
+                    Platform e-commerce lengkap dengan pembayaran digital.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Hasil Karya -->
+    <section class="section">
+        <h2>Hasil Karya</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Aplikasi Portfolio</h3>
+                <p>Website portfolio pribadi dengan HTML, CSS, dan JavaScript.</p>
+            </div>
+
+            <div class="card">
+                <h3>Desain UI Mobile</h3>
+                <p>Desain antarmuka aplikasi mobile menggunakan Figma.</p>
+            </div>
+
+            <div class="card">
+                <h3>Dashboard Admin</h3>
+                <p>Dashboard modern untuk monitoring data dan laporan.</p>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Nama Anda | Portfolio Pribadi</p>
+</footer>
+
+</body>
+</html>
